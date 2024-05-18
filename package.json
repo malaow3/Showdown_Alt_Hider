@@ -1,0 +1,14 @@
+{
+    "name": "showdown_alt_hider",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "build": "bun build index.ts --outfile main.js"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
